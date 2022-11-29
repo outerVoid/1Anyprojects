@@ -1,0 +1,253 @@
+<html>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <head>
+        <title>Работа с таблицами</title>
+            <style>
+                     ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        list-style-type: none; 
+                     }
+                     li {
+                        margin: 10px;
+                     }
+                                          
+            </style>
+    </head>
+
+    <body>
+        <h1 align = "center" topmargin = "30">Легкие таблицы</h1>
+        <ul>
+            <li>
+                <table border = "1px">
+                    <tr>
+                        <td>ячейка 1</td>
+                        <td>ячейка 2</td>
+                        <td>ячейка 3</td>
+                    </tr>
+                    <tr>
+                        <td>ячейка 4</td>
+                        <td>ячейка 5</td>
+                        <td>ячейка 6</td>
+                    </tr>
+                    <tr>
+                        <td>ячейка 7</td>
+                        <td>ячейка 8</td>
+                        <td>ячейка 9</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table cellspacing="0" cellpadding="0" border = "1px" width = "400px" height = "200px">
+                    <tr>
+                        <th>ячейка 1</th>
+                        <th>ячейка 2</th>
+                        <th>ячейка 3</th>
+                    </tr>
+                    <tr>
+                        <td>ячейка 4</td>
+                        <td>ячейка 5</td>
+                        <td>ячейка 6</td>
+                    </tr>
+                    <tr>
+                        <td>ячейка 7</td>
+                        <td>ячейка 8</td>
+                        <td>ячейка 9</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table cellspacing="0" cellpadding="0" border = "1px" width = "400px" height = "200px">
+                    <tr>
+                        <th>ячейка 1</th>
+                        <th>ячейка 2</th>
+                        <th>ячейка 3</th>
+                    </tr>
+                    <tr>
+                        <td align="right">ячейка 4</td>
+                        <td>ячейка 5</td>
+                        <td>ячейка 6</td>
+                    </tr>
+                    <tr>
+                        <td>ячейка 7</td>
+                        <td align="center">ячейка 8</td>
+                        <td align="right">ячейка 9</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table cellspacing="0" cellpadding="0" border = "1px" width = "400px" height = "200px">
+                    <tr>
+                        <th>номер</th>
+                        <th>тег</th>
+                        <th>значение</th>
+                    </tr>
+                    <tr align = "center">
+                        <td>1</td>
+                        <td>p</td>
+                        <td>абзац</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>2</td>
+                        <td>а</td>
+                        <td>ссылка</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>3</td>
+                        <td>b</td>
+                        <td>жирный текст</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>4</td>
+                        <td>i</td>
+                        <td>курсив</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>5</td>
+                        <td>table</td>
+                        <td>таблица</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>6</td>
+                        <td>tr</td>
+                        <td>ряд таблицы</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>7</td>
+                        <td>td</td>
+                        <td>ячейка таблицы</td>
+                    </tr>
+                    <tr align = "center">
+                        <td>8</td>
+                        <td>th</td>
+                        <td>заголовок таблицы</td>
+                    </tr>
+                </table>
+            </li>
+         </ul>
+         <h1 align = "center" topmargin = "30">Сложные таблицы</h1>
+         <ul>
+            <li>
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td colspan="2">ячейка 1</td>
+                        <!-- <td> ячейка 2 </td>-->
+                        <td>ячейка 3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ячейка 4</td>
+                        <td>ячейка 5</td>
+                        <td>ячейка 6</td>
+                    </tr>
+                    <tr>
+                        <!-- <td> ячейка 7 </td>-->
+                        <td>ячейка 8</td>
+                        <td>ячейка 9</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td colspan="3">ячейка 1</td>
+                        <!-- <td>ячейка 2</td>-->
+                        <!-- <td>ячейка 3</td>-->
+                    </tr>
+                    <tr>
+                        <td>ячейка 4</td>
+                        <td rowspan="2">ячейка 5</td>
+                        <td>ячейка 6</td>
+                    </tr>
+                    <tr>
+                        <!-- <td>ячейка 7</td>-->
+                        <td>ячейка 8</td>
+                        <td>ячейка 9</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td rowspan="3">ячейка 1</td>
+                        <td>ячейка 2</td>
+                        <td rowspan="3">ячейка 3</td>
+                    </tr>
+                    <tr>
+                        <!-- <td>ячейка 4</td>-->
+                        <td>ячейка 5</td>
+                        <!-- <td>ячейка 6</td>-->
+                    </tr>
+                    <tr>
+                        <!-- <td>ячейка 7</td>-->
+                        <td>ячейка 8</td>
+                        <!-- <td>ячейка 9</td>-->
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table border="1" cellspacing="0" width="400" height="200">
+                    <tr>
+                        <th rowspan="2">номер</th>
+                        <th colspan="2">теги</th>
+                    </tr>
+                    <tr>
+                        <!-- <th>номер</th> -->
+                        <th>тег</th>
+                        <th>значение</th>
+                    
+                    </tr>
+                    <tr align="center">
+                        <td>1</td>
+                        <td>p</td>
+                        <td rowspan="4">для текста</td>
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>2</td>
+                        <td>a</td>
+                        <!--<td>ссылка</td> -->
+                        
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>3</td>
+                        <td>b</td>
+                        <!-- <td>жирный текст</td> -->
+                        
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>4</td>
+                        <td>i</td>
+                        <!-- <td>курсив</td>-->
+                        
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>5</td>
+                        <td>table</td>
+                        <td>таблица</td>
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>6</td>
+                        <td>tr</td>
+                        <td>ряд таблицы</td>
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>7</td>
+                        <td>td</td>
+                        <td rowspan="2">ячейки таблицы</td>
+                    </tr>
+                    
+                    <tr align="center">
+                        <td>8</td>
+                        <td>th</td>
+                        <!-- <td>заголовок таблицы</td>-->
+                    </tr>
+                </table>
+            </li>
+         </ul>
+    </body>
+</html>
