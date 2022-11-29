@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    // а че так мало?
     <?php
     echo "try?";
     ?>
